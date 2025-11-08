@@ -1,0 +1,39 @@
+<svg width="1728" height="1117" viewBox="0 0 1728 1117" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_58_20)">
+<rect width="1728" height="1117" fill="url(#pattern0_58_20)" fill-opacity="0.2"/>
+<g opacity="0.2" filter="url(#filter0_n_58_20)">
+<rect width="1728" height="1117" fill="url(#paint0_radial_58_20)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_n_58_20" x="0" y="0" width="1728" height="1117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.5 0.5" stitchTiles="stitch" numOctaves="3" result="noise" seed="5133" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(255, 255, 255, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_58_20">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<radialGradient id="paint0_radial_58_20" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(864 1117) rotate(-90) scale(1525.5 1525.5)">
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+<clipPath id="clip0_58_20">
+<rect width="1728" height="1117" fill="white"/>
+</clipPath>
+<pattern id="pattern0_58_20" patternUnits="userSpaceOnUse" patternTransform="matrix(52.5 0 0 52.5 837.4 531.9)" preserveAspectRatio="none" viewBox="-0.5 -0.5 75 75" width="1" height="1">
+<use xlink:href="#pattern0_58_20_inner" transform="translate(-75 -75)"/>
+<use xlink:href="#pattern0_58_20_inner" transform="translate(0 -75)"/>
+<use xlink:href="#pattern0_58_20_inner" transform="translate(-75 0)"/>
+<g id="pattern0_58_20_inner">
+<rect width="75" height="75" stroke="#9FC3FF"/>
+</g>
+</pattern></defs>
+</svg>
